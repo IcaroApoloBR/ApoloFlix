@@ -35,6 +35,10 @@ export const VideoCardContainer = styled.a`
   &:focus p {
     display:inline;
   }
+
+  @media (max-width: 800px) {
+    opacity: 1
+  }
   
 `;
 
