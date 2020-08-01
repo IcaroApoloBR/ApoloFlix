@@ -27,7 +27,7 @@ const Container = styled.ul`
   }
   .slick-prev:before,
   .slick-next:before {
-    color: var(--white)
+    color: var(--primary)
   }
 `;
 
@@ -40,7 +40,6 @@ export const SliderItem = styled.li`
     object-fit: cover;
   }
 `;
-
 
 const Slider = ({ children }) => (
   <Container>

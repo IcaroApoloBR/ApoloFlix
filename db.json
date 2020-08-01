@@ -3,32 +3,27 @@
     {
       "id": 1,
       "titulo": "Filmes",
-      "cor": "#ffbe0b"
+      "cor": "var(--primary)"
     },
     {
       "id": 2,
       "titulo": "Séries",
-      "cor": "#fb5607"
+      "cor": "var(--primary)"
     },
     {
       "id": 3,
       "titulo": "Documentários",
-      "cor": "#ff006e"
+      "cor": "var(--primary)"
     },
     {
       "id": 4,
       "titulo": "Animes",
-      "cor": "#8338ec"
+      "cor": "var(--primary)"
     },
     {
       "id": 5,
       "titulo": "Tecnologia",
-      "cor": "#3a86ff"
-    },
-    {
-      "id": 6,
-      "titulo": "Games",
-      "cor": "#80b918"
+      "cor": "var(--primary)"
     }
   ],
   "videos": [
@@ -76,19 +71,19 @@
     },
     {
       "id": 8,
-      "categoriaId": 1,
+      "categoriaId": 2,
       "titulo": "Akira Yamaoka - This sacred line",
       "url": "https://music.youtube.com/watch?v=r8eaQR4HEAk&feature=share"
     },
     {
       "id": 9,
-      "categoriaId": 1,
+      "categoriaId": 2,
       "titulo": "Apparat - Goodbye",
       "url": "https://music.youtube.com/watch?v=C2-YwsEq0-0&feature=share"
     },
     {
       "id": 10,
-      "categoriaId": 1,
+      "categoriaId": 2,
       "titulo": "Tame Impala - Let it Happen",
       "url": "https://music.youtube.com/watch?v=NMRhx71bGo4&feature=share"
     },
@@ -118,7 +113,7 @@
     },
     {
       "id": 15,
-      "categoriaId": 2,
+      "categoriaId": 3,
       "titulo": "House",
       "url": "https://www.youtube.com/watch?v=dVlQJO4HZj0"
     },
@@ -172,15 +167,15 @@
     },
     {
       "id": 24,
-      "categoriaId": 6,
+      "categoriaId": 5,
       "titulo": "Dark Souls 2",
       "url": "https://www.youtube.com/watch?v=U6uyuIQYlfY"
     },
     {
+      "id": 25,
+      "categoriaId": 5,
       "titulo": "Video padrão",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
-      "id": 25
+      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c"
     }
   ]
 }
