@@ -1,84 +1,186 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Filmes",
-        "cor": "var(--primary)",
-        "link_extra": {
-          "text": "Filmes preferidos",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
-        },
-        {
-        "id": 2,
-        "titulo": "Séries",
-        "cor": "var(--primary)",
-        "link_extra": {
-          "text": "Séries favoritas",
-          "url": "https://www.alura.com.br/cursos-online-back-end"
-        }
-        },
-        {
-        "id": 3,
-        "titulo": "Documentários",
-        "cor": "var(--primary)",
-        "link_extra": {
-          "text": "Documentários sensacionais",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
-        },
-        {
-        "id": 4,
-        "titulo": "Animes",
-        "cor": "var(--primary)",
-        "link_extra": {
-          "text": "Melhores animes",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
-        }
-     ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "SEO com React",
-        "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-      },
-      {
-        "id": 2,
-        "categoriaId": 1,
-        "titulo": "Componentização com VanillaJS #AluraMais",
-        "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
-      },
-      {
-        "id": 3,
-        "categoriaId": 2,
-        "titulo": "Pare de chutar e aprenda a display: inline #01",
-        "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-      },
-      {
-        "id": 4,
-        "categoriaId": 2,
-        "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-        "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-      },
-      {
-        "id": 5,
-        "categoriaId": 3,
-        "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-      },
-      {
-        "id": 6,
-        "categoriaId": 4,
-        "titulo": "Novidades do Angular v9",
-        "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-      },
-      {
-        "id": 7,
-        "categoriaId": 4,
-        "titulo": "Base para aprender os frameworks",
-        "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-      }        
-    ]
-  }
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Filmes",
+      "cor": "#ffbe0b"
+    },
+    {
+      "id": 2,
+      "titulo": "Séries",
+      "cor": "#fb5607"
+    },
+    {
+      "id": 3,
+      "titulo": "Documentários",
+      "cor": "#ff006e"
+    },
+    {
+      "id": 4,
+      "titulo": "Animes",
+      "cor": "#8338ec"
+    },
+    {
+      "id": 5,
+      "titulo": "Tecnologia",
+      "cor": "#3a86ff"
+    },
+    {
+      "id": 6,
+      "titulo": "Games",
+      "cor": "#80b918"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Red Hot Chilli Peppers - Dark Necessities",
+      "url": "https://music.youtube.com/watch?v=ZICUilv4KF0&feature=share"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Gorillaz - Souk Eye",
+      "url": "https://music.youtube.com/watch?v=ag2LVnpoRpU&feature=share"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "The Beatles - Don't Let me Down",
+      "url": "https://youtu.be/NCtzkaL2t_Y"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Tim Maia - Ela partiu",
+      "url": "https://music.youtube.com/watch?v=syqJAgTQdlU&feature=share"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Alcione - Você me tira do sério",
+      "url": "https://music.youtube.com/watch?v=Zh-YpF3I7w8&feature=share"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Warren Ellis & Nick Cave - Song for Jesse",
+      "url": "https://music.youtube.com/watch?v=bReg7IRq7Lw&feature=share"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "David Bowie - Blackstar",
+      "url": "https://music.youtube.com/watch?v=kszLwBaC4Sw&feature=share"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Akira Yamaoka - This sacred line",
+      "url": "https://music.youtube.com/watch?v=r8eaQR4HEAk&feature=share"
+    },
+    {
+      "id": 9,
+      "categoriaId": 1,
+      "titulo": "Apparat - Goodbye",
+      "url": "https://music.youtube.com/watch?v=C2-YwsEq0-0&feature=share"
+    },
+    {
+      "id": 10,
+      "categoriaId": 1,
+      "titulo": "Tame Impala - Let it Happen",
+      "url": "https://music.youtube.com/watch?v=NMRhx71bGo4&feature=share"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Dark",
+      "url": "https://www.youtube.com/watch?v=6EhDKaWLJgg"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "The Mentalist",
+      "url": "youtube.com/watch?v=tCpWApgVqbc"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Lucifer",
+      "url": "https://www.youtube.com/watch?v=KJsdZYT-Tlk"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "The Boys",
+      "url": "https://www.youtube.com/watch?v=BxmSk_pv8tE"
+    },
+    {
+      "id": 15,
+      "categoriaId": 2,
+      "titulo": "House",
+      "url": "https://www.youtube.com/watch?v=dVlQJO4HZj0"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Ape Escape",
+      "url": "https://www.youtube.com/watch?v=MdgWnXV4f2k"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Super Mario Galaxy",
+      "url": "https://www.youtube.com/watch?v=rmN8DHZYNCg"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Donkey Kong - Country Returns",
+      "url": "https://www.youtube.com/watch?v=TMhEs78Zix8"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Midnight Club 3: DUB Edition Remix",
+      "url": "https://www.youtube.com/watch?v=eivnVc7yWuY"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Terraria",
+      "url": "https://www.youtube.com/watch?v=w7uOhFTrrq0"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Nier Automata",
+      "url": "https://www.youtube.com/watch?v=wJxNhJ8fjFk"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Metal Gear Solid 3: Snake Eater",
+      "url": "https://www.youtube.com/watch?v=hXUono66wxI"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Skyrim",
+      "url": "https://www.youtube.com/watch?v=JSRtYpNRoN0"
+    },
+    {
+      "id": 24,
+      "categoriaId": 6,
+      "titulo": "Dark Souls 2",
+      "url": "https://www.youtube.com/watch?v=U6uyuIQYlfY"
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
+      "categoriaId": 1,
+      "id": 25
+    }
+  ]
+}

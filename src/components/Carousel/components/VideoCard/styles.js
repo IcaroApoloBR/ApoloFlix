@@ -1,15 +1,16 @@
 import styled from 'styled-components';
 
-export const VideoCardContainer = styled.a`
+const VideoCardContainer = styled.a`
+  --card-width: 298px;
+  --card-height: 197px;
   border: 2px solid;
-  border-radius: 4px;
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
   color: white;
-  flex: 0 0 298px;
-  width: 298px;
-  height: 197px;
+  flex: 0 0 var(--card-width);
+  width: var(--card-width);
+  height: var(--card-height);
   background-image: ${({ url }) => `url(${url})`};
   background-size: cover;
   background-position: center;
@@ -17,36 +18,29 @@ export const VideoCardContainer = styled.a`
   position: relative;
   display: flex;
   align-items: flex-end;
-  padding: 16px;
-  opacity: .7;
-
-
-  transition: .5s;
+  transition: all 0.5s;
   &:hover,
   &:focus {
-    opacity: 1;
+    margin: 0 40px;
+    transform: scale(1.2);
+    & > span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
-  
   &:not(:first-child) {
     margin-left: 20px;
   }
-
-  &:hover p,
-  &:focus p {
-    display:inline;
+  & > span {
+    width: 100%;
+    height: 40%;
+    background-color: rgba(0,0,0,0.8);
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    display: none;
   }
-  
 `;
 
-export const VideoCardBanner = styled.p`
-  width: 100%;
-  padding: 10px;
-  position: absolute;
-  bottom: -16px;
-  margin-left: -16px;
-  display: none;
-  transition: 300ms;
-  @media (max-width: 800px) {
-    display: inline;
-  }
-`
+export default VideoCardContainer;
