@@ -2,21 +2,39 @@
     "categorias": [
       {
         "id": 1,
-        "titulo": "Front End",
-        "cor": "#6BD1FF",
+        "titulo": "Filmes",
+        "cor": "var(--primary)",
         "link_extra": {
-          "text": "Formação de Front End na Alura",
+          "text": "Filmes preferidos",
           "url": "https://www.alura.com.br/cursos-online-front-end"
         }
         },
         {
-            "id": 2,
-            "titulo": "Back End",
-            "cor": "#6BD1FF",
-            "link_extra": {
-              "text": "Formação de Back End na Alura",
-              "url": "https://www.alura.com.br/cursos-online-back-end"
-            }
+        "id": 2,
+        "titulo": "Séries",
+        "cor": "var(--primary)",
+        "link_extra": {
+          "text": "Séries favoritas",
+          "url": "https://www.alura.com.br/cursos-online-back-end"
+        }
+        },
+        {
+        "id": 3,
+        "titulo": "Documentários",
+        "cor": "var(--primary)",
+        "link_extra": {
+          "text": "Documentários sensacionais",
+          "url": "https://www.alura.com.br/cursos-online-front-end"
+        }
+        },
+        {
+        "id": 4,
+        "titulo": "Animes",
+        "cor": "var(--primary)",
+        "link_extra": {
+          "text": "Melhores animes",
+          "url": "https://www.alura.com.br/cursos-online-front-end"
+        }
         }
      ],
     "videos": [
@@ -25,6 +43,42 @@
         "categoriaId": 1,
         "titulo": "SEO com React",
         "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-      }
+      },
+      {
+        "id": 2,
+        "categoriaId": 1,
+        "titulo": "Componentização com VanillaJS #AluraMais",
+        "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      },
+      {
+        "id": 3,
+        "categoriaId": 2,
+        "titulo": "Pare de chutar e aprenda a display: inline #01",
+        "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+      },
+      {
+        "id": 4,
+        "categoriaId": 2,
+        "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
+        "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+      },
+      {
+        "id": 5,
+        "categoriaId": 3,
+        "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+        "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+      },
+      {
+        "id": 6,
+        "categoriaId": 4,
+        "titulo": "Novidades do Angular v9",
+        "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+      },
+      {
+        "id": 7,
+        "categoriaId": 4,
+        "titulo": "Base para aprender os frameworks",
+        "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+      }        
     ]
   }
