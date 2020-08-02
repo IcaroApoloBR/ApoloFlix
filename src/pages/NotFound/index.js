@@ -20,8 +20,8 @@ function NotFound() {
 
   const Button = styled.button`
         margin: 50px;
-        color: var(--white);
-        border: 1px solid var(--white);
+        color: var(--primary);
+        border: 1px solid var(--primary);
         box-sizing: border-box;
         cursor: pointer;
         padding: 16px 24px;
